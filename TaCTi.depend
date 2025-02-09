@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1739060571 source:e:\facultad\topicosdeprogramacion\final-5-12-2024\tacti\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+
+1739073879 source:c:\users\nicob\cloning\rama-tacti\main.c
+	"tacti.h"
+
+1739072475 c:\users\nicob\cloning\rama-tacti\tacti.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+
+1739072479 source:c:\users\nicob\cloning\rama-tacti\tacti.c
+	"tacti.h"
+
