@@ -2,45 +2,17 @@
 
 int main()
 {
-    char tablero[3][3];
-    int cantEspaciosVacios;
-    bool victoriaJugador, victoriaMaquina;
-
-    cantEspaciosVacios = 9;
-    victoriaJugador = victoriaMaquina = false;
-
-
-    ///*Leer* Todavia no hice para poner random la ficha, por ahora la persona empieza y es la X y la maquina es O.
-
-    inicializarTablero(tablero);
-    mostrarTablero(tablero);
-
-    while(!victoriaJugador && cantEspaciosVacios > 0 && !victoriaMaquina)
+    int cod = 0;
+    while(cod != FINALIZAR_PROGRAMA)
     {
-        realizarMovimientoJugador('X', tablero);
-        cantEspaciosVacios--;
-        victoriaJugador = esVictoria(tablero, 'X');
-        mostrarTablero(tablero);
-
-        if(!victoriaJugador && cantEspaciosVacios > 0)
+        cod = menu();
+        if(cod == LISTA_VACIA)
         {
-            if(chequearPosibilidadVictoria(tablero, 'O', 'O') == true)
-                victoriaMaquina = true;
-            else if (chequearPosibilidadVictoria(tablero, 'X', 'O') == false)
-                realizarMovimientoAleatorio(cantEspaciosVacios, 'O', tablero);
-
-            cantEspaciosVacios--;
-            mostrarTablero(tablero);
-        }
-
+            printf("\nNo ha ingresado ningun jugador a la lista, por lo tanto se lo devolvera al menu.\n\n");
+            fflush(stdin);
+        }else if(cod == ERR_ARCH || cod == SIN_MEM)
+            exit(cod);
     }
 
-    if(victoriaJugador == true)
-        printf("\nGano el jugador!\n");
-    else if(victoriaMaquina == true)
-        printf("\nGano la maquina!\n");
-    else
-        printf("\nEmpate!\n");
-
-    return 0;
+    return TODO_OK;
 }

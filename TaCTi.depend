@@ -5,15 +5,33 @@
 	<time.h>
 	<stdbool.h>
 
-1739073879 source:c:\users\nicob\cloning\rama-tacti\main.c
+1739751726 source:c:\users\nicob\cloning\rama-tacti\main.c
 	"tacti.h"
 
-1739072475 c:\users\nicob\cloning\rama-tacti\tacti.h
+1739766135 c:\users\nicob\cloning\rama-tacti\tacti.h
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	<stdbool.h>
+	"lista.h"
+	"api.h"
 
-1739072479 source:c:\users\nicob\cloning\rama-tacti\tacti.c
+1739766843 source:c:\users\nicob\cloning\rama-tacti\tacti.c
 	"tacti.h"
+
+1739752828 source:c:\users\nicob\cloning\rama-tacti\lista.c
+	"lista.h"
+
+1739752797 c:\users\nicob\cloning\rama-tacti\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1739760773 c:\users\nicob\cloning\rama-tacti\api.h
+	<curl/curl.h>
+
+1739760810 source:c:\users\nicob\cloning\rama-tacti\api.c
+	<stdio.h>
+	<stdlib.h>
 
