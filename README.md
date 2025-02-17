@@ -22,7 +22,7 @@ Tabla de puntajes:
 
 Cada jugador, tras finalizar sus N partidas, podrá ver su puntaje, y tras la finalización de todas las partidas de todos los jugadores, se podrá ver como quedaron los puntos de cada jugador.
 
-También se generará un informe con los datos de la partida con la finalidad de entrenar posteriormente a la IA. Estos se pueden encontrar en la carpeta del proyecto bajo el nombre de informe-juego_YYYY-MM-DD-HH-mm.txt, esto nos permite identificar univocamente la partida a través de la fecha y horario. Además se enviara la información del puntaje de cada jugador a una API, pudiendo ser reemplazada si posteriormente juega devuelta.
+También se generará un informe con los datos de la partida con la finalidad de entrenar posteriormente a la IA. Estos se pueden encontrar en la carpeta del proyecto bajo el nombre de informe-juego_YYYY-MM-DD-HH-mm.txt, esto nos permite identificar univocamente la partida a través de la fecha y horario. Además se enviara la información del puntaje de cada jugador a una API, pudiendo ser acumulados si posteriormente juega devuelta.
 
 ------
 
